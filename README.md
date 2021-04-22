@@ -48,7 +48,8 @@ Routes     | HTTP Methods |	Description
  ***Multer*** is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
 
 
-###MOngoose METHODS:
+### MOngoose METHODS:
+[Mongoose Doc.](https://mongoosejs.com/docs/api.html#model_Model.findOne)
 ***.findOne();***
  To check whether an obj.name already exists in the database, we can use a mongoose query method called findOne(), which returns one object from the database that matches the condition supplied.
 
