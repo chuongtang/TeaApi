@@ -30,11 +30,11 @@ Routes     | HTTP Methods |	Description
 
 **A typical process of how Node.js handles HTTP transactions is as follows:**
 
-* 1.Instantiate an HTTP server with a request handler function, and have it listen on a port.
-* 2.Get headers, URL, method and body data from request objects.
-* 3.Send headers, HTTP status codes and body data via response objects.
-* 4.Pipe data from request objects and to response objects.
-* 5.Handle errors in both the request and response streams.
+1. Instantiate an HTTP server with a request handler function, and have it listen on a port.
+2. Get headers, URL, method and body data from request objects.
+3. Send headers, HTTP status codes and body data via response objects.
+4. Pipe data from request objects and to response objects.
+5. Handle errors in both the request and response streams.
 
 ***Controllers*** are typically callback functions that corresponds to the routers to handle requests. It is a good design principle to keep the code concise and readable.
 // Syntax
@@ -50,6 +50,8 @@ Routes     | HTTP Methods |	Description
 
 ### MOngoose METHODS:
 [Mongoose Doc.](https://mongoosejs.com/docs/api.html#model_Model.findOne)
+
+
 ***.findOne();***
  To check whether an obj.name already exists in the database, we can use a mongoose query method called findOne(), which returns one object from the database that matches the condition supplied.
 
