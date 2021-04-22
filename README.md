@@ -1,10 +1,10 @@
 **Our T-API User Stories**
-I can create a new tea object and add it to the database
-I can get all the tea from the database
-I can delete all the tea in the database
-I can get a single tea by querying its name
-I can post a comment to a single tea
-I can delete a single tea from the database
+* User can create a new tea object and add it to the database
+* User can get all the tea from the database
+* User can delete all the tea in the database
+* User can get a single tea by querying its name
+* User can post a comment to a single tea
+* User can delete a single tea from the database
 
 
 **Sample of tea obj:**
@@ -30,11 +30,11 @@ Routes     | HTTP Methods |	Description
 
 **A typical process of how Node.js handles HTTP transactions is as follows:**
 
-1.Instantiate an HTTP server with a request handler function, and have it listen on a port.
-2.Get headers, URL, method and body data from request objects.
-3.Send headers, HTTP status codes and body data via response objects.
-4.Pipe data from request objects and to response objects.
-5.Handle errors in both the request and response streams.
+* 1.Instantiate an HTTP server with a request handler function, and have it listen on a port.
+* 2.Get headers, URL, method and body data from request objects.
+* 3.Send headers, HTTP status codes and body data via response objects.
+* 4.Pipe data from request objects and to response objects.
+* 5.Handle errors in both the request and response streams.
 
 ***Controllers*** are typically callback functions that corresponds to the routers to handle requests. It is a good design principle to keep the code concise and readable.
 // Syntax
