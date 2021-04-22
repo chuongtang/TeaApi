@@ -44,3 +44,13 @@ Routes     | HTTP Methods |	Description
  ***Mongoose*** is an object data modeling (ODM) library for MongoDB. It allows us to efficiently create schemas for our MongoDB to use with ease.
 
  ***A schema*** defines the shape of the document which maps to a MongoDB collection. We then convert this schema into a Model, which we can then work with to manipulate it with our API.
+
+ ***Multer*** is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
+
+
+###MOngoose METHODS:
+***.findOne();***
+ To check whether an obj.name already exists in the database, we can use a mongoose query method called findOne(), which returns one object from the database that matches the condition supplied.
+
+***getAllTea***
+To get all tea, our function will retrieve and return all the data from our database using the mongoose built-in find() method. We supply {} as the matching condition so that the all data will be returned.
