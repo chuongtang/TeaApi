@@ -1,6 +1,8 @@
 ## Cause I love tea 🍵
 #### So I built this API for the EvolveU-C6 project 1 🙋
 
+#### ***Credit to Vitoria [Article Page](https://lo-victoria.com/)*** 
+
 **Our T-API User Stories**
 * User can create a new tea object and add it to the database
 * User can get all the tea from the database
