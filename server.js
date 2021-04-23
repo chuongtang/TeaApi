@@ -1,10 +1,13 @@
 require('dotenv').config();
 const express = require('express'); 
-const routes = require('./routes/tea'); // import the routes
+const routes = require('./routes/tea'); 
 const mongoose = require('mongoose');
-
+const helmet = require('helmet');
+const compression = require('compression');
 
 const app = express();
+app.use(helmet());
+app.use(compression()); //Compress all routes
 
 app.use(express.json()); // parses incoming requests with JSON payloads
 app.use('/', routes); //to use the routes

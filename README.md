@@ -11,6 +11,7 @@
 
 
 **Sample of tea obj:**☕
+
 {
     "name": "Jasmine Tea",
     "image": "an image file url",
@@ -63,4 +64,9 @@ To get all tea, our function will retrieve and return all the data from our data
 
 ### NPM Helmet
 [Security Check list] (https://lo-victoria.com/the-must-have-security-checklist-for-web-apps)
-Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
+>Helmet helps you secure your Express apps by setting various HTTP headers. 
+>It's not a silver bullet, but it can help!.
+
+
+### NPM compression:
+It can compress HTTP requests to significantly reduce the time required for the client to get and load the page from the server.
