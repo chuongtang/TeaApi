@@ -1,3 +1,6 @@
+## Cause I love tea 🍵
+#### So I built this API for the EvolveU-C6 project 1 🙋
+
 **Our T-API User Stories**
 * User can create a new tea object and add it to the database
 * User can get all the tea from the database
@@ -7,7 +10,7 @@
 * User can delete a single tea from the database
 
 
-**Sample of tea obj:**
+**Sample of tea obj:**☕
 {
     "name": "Jasmine Tea",
     "image": "an image file url",
@@ -57,3 +60,7 @@ Routes     | HTTP Methods |	Description
 
 ***getAllTea***
 To get all tea, our function will retrieve and return all the data from our database using the mongoose built-in find() method. We supply {} as the matching condition so that the all data will be returned.
+
+### NPM Helmet
+[Security Check list] (https://lo-victoria.com/the-must-have-security-checklist-for-web-apps)
+Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
