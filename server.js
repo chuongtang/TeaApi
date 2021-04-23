@@ -8,6 +8,8 @@ const app = express();
 
 app.use(express.json()); // parses incoming requests with JSON payloads
 app.use('/', routes); //to use the routes
+app.use('/uploads', express.static('./uploads')); // make uploads folder a static file to  be accessed publicly
+
 
 // Routes are represented as URIs in REST APIs.
 
